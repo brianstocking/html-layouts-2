@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+
+.top{
+  width: 95%;
+  height: 15%;
+  margin: 0 auto;
+  padding: 0 0 0 2%;
+ }
+
+.box {
+   
+  height: 100%;
+  width: 30%;
+  margin:1%;  
+  display: inline-block;
+}
+  
+.red{
+  background: red;
+ 
+}
+.blue{
+  background: blue;
+  
+}
+
+.grey{
+  background: grey;
+
+}
+
+.writing{
+  clear: both;
+  height: 25%;
+  width: 90%;
+  text-align: justify;
+  margin: 5%;
+}
+
+.mid{
+  height: 30%;
+  width: 90%;
+  margin: 5%  auto;
+  background: red;
+}
+
+.middle{
+  background: blue;
+  height: 100%;
+  width: 66%;
+  float: right;
+}
+
+.bottom{
+  height: 15%;
+  width: 90%;
+  background: blue;
+  margin: 5% auto;
+}
+
+.lower.red{
+  height: 100%;
+  width: 33%;
+  float: right;
+}
+
+.elower.grey{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+
