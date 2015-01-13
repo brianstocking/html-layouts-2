@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+}
+
+header{
+  height: 10%;
+  width: 100%;
+  background: black;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.links{
+  display: inline-block;
+  margin: 20px;
+  font-size:25px; 
+}
+.whole{
+  clear: both;
+}
+.inner{
+  height: 80%;
+  width: 100%;
+  float: left;
+  padding: 2%;
+  font-size: 13px;
+  font-family: sans-serif;
+
+}
+
+.left{
+  height: 100%;
+  width: 50%;
+}
+
+.right{
+  height:  100%;
+  width: 50%;
+}
+
+.img{
+  height: 40%;
+  width: 100%;
+  background: url(http://static.giantbomb.com/uploads/scale_small/0/316/520157-apple_logo_dec07.jpg);
+  background-size: 100% 100%;
+}
+
+footer{
+
+  height: 10%;
+  width: 100%;
+  background: black;
+  position: fixed;
+  bottom: 0;
+}
