@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background: #999;
+  margin: 0;
+}
+
+
+.upper{
+  height: 30%;
+  width: 90%;
+  background: white;
+  margin: 5% auto;
+  padding: 2% 3%;
+}
+
+.button{
+  height: 25%;
+  width: 50%;
+}
+
+.box{
+  display: inline-block;
+  margin: 4%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  padding: 3%;
+  
+}
+.red{
+  height: 100%;
+  width: 40%;  
+  background: red;
+}
+
+.blue{
+  height: 100%;
+  width: 40%;
+  background: blue;
+} 
+
+
+.center{
+  height: 45%;
+  width: 90%;
+  background: white;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.image{
+  height: 60%;
+  width: 100%;
+  margin: 0 auto;
+  background: url(http://news.bbcimg.co.uk/media/images/80193000/jpg/_80193951_e1f4e295-bf94-4930-a69d-a17c5ba42775.jpg);
+  background-size: 100% 100%;
+}
+
+.bottom{
+  background: #333;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0; 
+}
+
+.end{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  float: right;
+  margin: 4%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
